@@ -20,7 +20,7 @@ To establish a simple system to building a repository, you should first navigate
 3. Type **Course Repository Drop-off** in the **Name** field. Add a description if helpful.
 4. Select **Create**, and now you have a list where you can add Excel sheets that correspond to different courses.
 
-<img alt="Find List under + New menu" src="https://user-images.githubusercontent.com/96262719/209174838-4239c1da-4863-4ec5-9e90-8f2fb00a380d.png">
+<img img width="412" alt="Find List under + New menu" src="https://user-images.githubusercontent.com/96262719/209174838-4239c1da-4863-4ec5-9e90-8f2fb00a380d.png">
 
 ***
 
@@ -47,15 +47,17 @@ If an Excel sheet for the course you are looking for does not exist yet, click *
 
 ## IV. Creating a Workflow in Power Automate
 
-*This step only applies to if a workflow has not been established yet in Power Automate. If you are amending or adding new data to a course repository, you can skip to Section V.*
+*If you are amending or adding new data to a course repository, you can skip to Section V.*
 
-Power Automate is a SharePoint app that allows you to create a workflow that automates processes within SharePoint. For example, Power Automate can be used to create a workflow that updates a **List** item automatically from an Excel spreadsheet. You can access Power Automate from the grid icon on the top-left-hand side of SharePoint. If you cannot find it in the first 10 apps, click **All apps →** to view the entire list of apps.
+[Power Automate](https://powerautomate.microsoft.com/) is a SharePoint app that allows you to create a workflow that automates processes within SharePoint. For example, Power Automate can be used to create a workflow that updates a **List** item automatically from an Excel spreadsheet. 
 
-To create a workflow, navigate to **My flows** on the left-hand side of the screen. Once there, click **+ New** flow in the top navigation bar.
+You can access Power Automate from the grid icon on the top-left-hand side of SharePoint. If you cannot find it in the first 10 apps, click **All apps →** to view the entire list of apps.
 
-Here is a preview of what the workflow looks like when complete.
+Here is a preview of the complete workflow in Power Automate.
 
 ![Power Automate flow overview](https://user-images.githubusercontent.com/96262719/209042474-3955b1d2-58ce-4f47-b87b-60a10d6a6e7f.png)
+
+To create a workflow, navigate to **My flows** on the left-hand side of the screen. Once there, click **+ New** flow in the top navigation bar.
 
 ***
 
