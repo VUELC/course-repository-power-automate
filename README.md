@@ -17,7 +17,7 @@ ___
 
 This is the most basic and straightforward part of building a repository. Each course will have its own designated List in SharePoint. To create a list, go to **Course Repository Drop-off** in your organization's SharePoint home page.
 
-*Figure 1*
+[Figure 1](https://www.image.com)
 
 If an Excel sheet for the course you are looking for does not exist yet, click **+ New** in the top navigation bar. Next, click Course Template and save it as **Course Name Repository.xlsx**. If the course spreadsheet already exists, skip to Section III.
  
@@ -33,7 +33,7 @@ To create a workflow, navigate to **My flows** on the left-hand side of the scre
 
 Here is a preview of what the workflow looks like when complete.
 
-*Figure 2*
+![Power Automate flow overview](https://user-images.githubusercontent.com/96262719/209042474-3955b1d2-58ce-4f47-b87b-60a10d6a6e7f.png)
 
 ***
 
