@@ -26,7 +26,7 @@ To begin building a repository, you should first navigate to the homepage for yo
 
 ## II.	Uploading a Course Template Excel Sheet to SharePoint
 
-1. Download and save the [**Course Template.xlsx**](https://github.com/prosodactyl/course-repository-power-automate/blob/main/Course%20Template.xlsx/_blank) Excel sheet from GitHub.
+1. Download and save the [**Course Template.xlsx**](https://github.com/prosodactyl/course-repository-power-automate/blob/main/Course%20Template.xlsx/) Excel sheet from GitHub.
 2. Navigate to the **Course Repository Drop-off** list in SharePoint that you created in Section I.
 3. Click **+ New** and then **+ Add template** in the drop-down menu.
 4. Select **Course Template.xlsx** from your saved documents folder and then click **Open**.
