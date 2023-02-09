@@ -1,7 +1,7 @@
 # Building Course Repositories in SharePoint using Power Automate
 
 ## Overview
-This repository contains guidelines and files needed to create SharePoint lists corresponding to individual courses that will sync on a scheduled basis with Excel sheets that are updated with new or changed course items. The purpose of the Power Automate flow is to establish collaborative course repositories for instructors within a group or organization. A professional or organizational SharePoint account is required to upload the zip file to Power Automate.
+This repository contains guidelines and files to help you build a collaborative course repository using Power Automate flows. Each flow will link to a SharePoint list corresponding to individual courses that will sync on a scheduled basis with Excel sheets you can update as needed. You can share these lists with anyone you like within the same group or organization. A professional or organizational SharePoint account is required to upload the zip file to Power Automate.
 
 We suggest watching the [accompanying instructional videos](http://www.google.com) for guidance in setting up your course repositories.
 
@@ -13,7 +13,7 @@ ___
 
 ## I. Creating a Course Repository Drop-off List in SharePoint
 
-To establish a simple system to building a repository, you should first navigate to the homepage for your group's SharePoint. 
+To begin building a repository, you should first navigate to the homepage for your group's SharePoint. 
 
 1. Directly under the SharePoint group name, select **+ New** and then select **List**.
 2. Next, select the button in the top left corner labeled **Blank list**.
@@ -26,7 +26,7 @@ To establish a simple system to building a repository, you should first navigate
 
 ## II.	Uploading a Course Template Excel Sheet to SharePoint
 
-1. Download and save the [**Course Template.xlsx**](https://github.com/prosodactyl/course-repository-power-automate/blob/main/Course%20Template.xlsx) Excel sheet from GitHub.
+1. Download and save the [**Course Template.xlsx**](https://github.com/prosodactyl/course-repository-power-automate/blob/main/Course%20Template.xlsx/_blank) Excel sheet from GitHub.
 2. Navigate to the **Course Repository Drop-off** list in SharePoint that you created in Section I.
 3. Click **+ New** and then **+ Add template** in the drop-down menu.
 4. Select **Course Template.xlsx** from your saved documents folder and then click **Open**.
@@ -41,7 +41,9 @@ To determine whether you've uploaded the template successfully, click the **+ Ne
 
 ## III.	Creating Course Repositories in SharePoint
 
-If an Excel sheet for the course you are looking for does not exist yet, click **+ New** in the top navigation bar. Next, click Course Template and save it as **Course Name Repository.xlsx**. If the course spreadsheet already exists, skip to Section IV.
+*If the course spreadsheet already exists, skip to Section IV.*
+
+If an Excel sheet for the course you are looking for does not exist yet, click **+ New** in the top navigation bar. Next, click Course Template and save it as **Course Name Repository.xlsx**.
  
 ***
 
@@ -59,8 +61,8 @@ You can access Power Automate from the grid icon on the top-left-hand side of Sh
 ![Figure 2. Upload flow](https://user-images.githubusercontent.com/96262719/210643640-cab3be56-11d8-4ba2-8e60-920fd77573bb.png)
 
 3. Click the blue button labeled **Upload** and find the zip file in your folder. It will take a few moments for the zip file to upload in Power Automate.
-4. Once uploaded, you will have to select import settings. In the **Import Setup** column for the **Course Repository Template**, click **Update**, navigate to the drop-down menu and select **Create as new**. Here you can name the flow whatever you'd like.
-5. In the **Related resources** section, click **Select during import** for any items listed and selected your account email.
+4. Once uploaded, you will have to select import settings. In the **Import Setup** column for the **Course Repository Template**, click **Update**, navigate to the drop-down menu and select **Create as new**. Here you can name the flow whatever you would like. Click **Save** to update the name.
+5. In the **Related resources** section, click **Select during import** for any items listed and select your account email.
 
 ![Figure 3. Import flow](https://user-images.githubusercontent.com/96262719/210643720-a4061591-36c5-4f2a-9192-02309aee902d.png)
 
