@@ -125,7 +125,7 @@ To successfully import the zip file containing the Power Automate flow, you must
 5. In the **Related resources** section, click **Select during import** for any items listed and select your account email.
 
 <p align="center">
-    <img img width="412" alt="Figure 7. Import flow" src="https://user-images.githubusercontent.com/96262719/210643720-a4061591-36c5-4f2a-9192-02309aee902d.png">
+    <img img width="600" alt="Figure 7. Import flow" src="https://user-images.githubusercontent.com/96262719/210643720-a4061591-36c5-4f2a-9192-02309aee902d.png">
 </p>
 
 6. Once all fields are filled, you may click the **Import** button. The flow will take a few moments to import.
@@ -143,14 +143,14 @@ To successfully import the zip file containing the Power Automate flow, you must
 Here is a preview of the complete workflow in Power Automate. Each bar (e.g., *Recurrence*, *List rows present in a table*, etc.) is subsequently referred to as a node.
 
 <p align="center">
-    <img img width="412" alt="Figure 9. Power Automate flow overview" src="https://user-images.githubusercontent.com/96262719/210643857-c23819fc-87e3-4045-954c-48650d3bca78.png">
+    <img img width="600" alt="Figure 9. Power Automate flow overview" src="https://user-images.githubusercontent.com/96262719/210643857-c23819fc-87e3-4045-954c-48650d3bca78.png">
 </p>
 
 3. You will have to open each node to link your Excel spreadsheet and SharePoint list to the Power Automate flow. This can be done by clicking on each node to expand the contents within. 
 3. Directly underneath the title, you will find a word bubble icon next to a comment. The comment within each node will explicitly state whether there is any content in the node that needs to be updated to reference either your Excel spreadsheet or SharePoint list.
 
 <p align="center">
-    <img img width="412" alt="Figure 10. Power Automate comments" src="https://user-images.githubusercontent.com/96262719/218887480-898cc2a5-07b9-435e-b74e-86535bfbe62b.png">
+    <img img width="500" alt="Figure 10. Power Automate comments" src="https://user-images.githubusercontent.com/96262719/218887480-898cc2a5-07b9-435e-b74e-86535bfbe62b.png">
 </p>
 
 4. The following table provides an explanation for each of the nodes.
@@ -159,14 +159,14 @@ Here is a preview of the complete workflow in Power Automate. Each bar (e.g., *R
 5. After you have checked every node and customized each one accordingly, save the flow by clicking the **Save** icon at the top left of the browser or at the bottom of the flow.
 
 <p align="center">
-    <img img width="412" alt="Figure 11. Save flow" src="https://user-images.githubusercontent.com/96262719/218862385-888a3033-63cc-4ba5-8a3d-8e203695a0f4.png">
+    <img img width="500" alt="Figure 11. Save flow" src="https://user-images.githubusercontent.com/96262719/218862385-888a3033-63cc-4ba5-8a3d-8e203695a0f4.png">
 </p>
 
 6. Before you test out the flow, you must turn it on. To do so, click the left arrow next to your flow name to return to the landing page for that flow. 
 7. Navigate to the top bar and click on **Turn on**.
 
 <p align="center">
-    <img img width="412" alt="Figure 12. Turn flow on" src="https://user-images.githubusercontent.com/96262719/218862939-4b1dece3-fade-4055-8c92-36d732bae450.png">
+    <img img width="600" alt="Figure 12. Turn flow on" src="https://user-images.githubusercontent.com/96262719/218862939-4b1dece3-fade-4055-8c92-36d732bae450.png">
 </p>
 
 8. After ensuring the flow is on, click **Run** in the same bar to test the flow.
