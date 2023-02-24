@@ -155,7 +155,19 @@ Here is a preview of the complete workflow in Power Automate. Each bar (e.g., *R
 
 4. The following table provides an explanation for each of the nodes.
 
-<i>Insert table here.</i>
+| Node | Purpose |
+|------|---------|
+|Recurrence|Allows you to set a date and time for the flow to run so you do not have to manually run the flow once the Excel spreadsheet has been updated.|
+|List rows present in table|Connects the flow to the Excel spreadsheet created where information about course materials can be added, deleted, or changed.|
+|Initalize variable - Excel Keys|Creates an empty array called MyExcelKeys.|
+|Apply to each - Excel Content|Populates the array called MyExcelKeys with information from the reference Excel spreadsheet.|
+|Get items|Connects the flow to the SharePoint list created that will serve as the course repository.|
+|Initialize variable - SharePoint Keys|Creates an empty array called MySharePointKeys.|
+|Apply to each - Poppulate SP Array|Populates the array called MySharePointKeys with information from the reference SharePoint list.|
+|Initialize variable Intersection Array - Unchanged Items|Creates an array called IntersectionArray of the overlapping items in MyExcelKeys and MySharePointKeys to identify items that have been unchanged since the last flow run.|
+|Apply to each - Delete SP items not in Intersection|Populates the IntersectionArray to identify and remove items that appear in the SharePoint list but not in the Excel spreadsheet. This means that the Excel spreadsheet has been updated to remove unnecessary or irrelevant materials in the repository, that should now also be removed from the SharePoint list.|
+|Apply to each - Add new and changed items|Checks MyExcelKeys for any items that have been added or changed in the Excel spreadsheet and updates them in the SharePoint list.|
+
 5. After you have checked every node and customized each one accordingly, save the flow by clicking the **Save** icon at the top left of the browser or at the bottom of the flow.
 
 <p align="center">
