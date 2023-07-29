@@ -16,7 +16,7 @@ ___
 
 To begin building a repository, you should first navigate to the homepage for your group's SharePoint. The purpose of this section is to build a SharePoint list in which all of the Excel sheets are stored. Whether you make individual spreadsheets per course or combine all materials in one spreadsheet, perhaps differentiating course using a column, is up to you. The spreadsheets contained within the **Course Repository Drop-off** are where you can make edit, add, or delete course materials. These changes will be updated automatically to the SharePoint list for each course repository using the Power Automate flow built in this vignette.
 
-1. Directly under the SharePoint group name, select **+ New** and then select **List**.
+1. Directly under the SharePoint group name, select **+ New** and then select **Document library**.
 2. Next, select the button in the top left corner labeled **Blank list**.
 3. Type **Course Repository Drop-off** in the **Name** field. Add a description if helpful.
 4. Select **Create**, and now you have a list where you can add Excel sheets that correspond to different courses.
