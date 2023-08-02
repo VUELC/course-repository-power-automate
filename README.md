@@ -22,7 +22,7 @@ To begin building a repository, you should first navigate to the homepage for yo
 4. Select **Create**, and now you have a list where you can add Excel sheets that correspond to different courses.
 
 <p align="center">
-    <img img width="412" alt="Figure 1. Find List under + New menu" src="https://user-images.githubusercontent.com/96262719/209174838-4239c1da-4863-4ec5-9e90-8f2fb00a380d.png">
+    <img width="412" alt="Create Document Library" src="https://github.com/prosodactyl/course-repository-power-automate/assets/96262719/f9f87be3-f764-44cc-955a-be2a5c0da854">
 </p>
 
 ***
@@ -168,26 +168,48 @@ Here is a preview of the complete workflow in Power Automate. Each bar (e.g., *R
 |Apply to each - Delete SP items not in Intersection|Populates the IntersectionArray to identify and remove items that appear in the SharePoint list but not in the Excel spreadsheet. This means that the Excel spreadsheet has been updated to remove unnecessary or irrelevant materials in the repository, that should now also be removed from the SharePoint list.|
 |Apply to each - Add new and changed items|Checks MyExcelKeys for any items that have been added or changed in the Excel spreadsheet and updates them in the SharePoint list.|
 
-5. After you have checked every node and customized each one accordingly, save the flow by clicking the **Save** icon at the top left of the browser or at the bottom of the flow.
+5. The final node (<b>Apply to Each - Add new and changed items</b>) requires a few extra steps. Click the node, and then click <b>Condition 2</b>. Next, click <b>Create item</b> under the <b>If no</b> condition.
+
+* Make sure that the <b>Site Address</b> and <b>List Name</b> are linked to the correct place.
+* For each column name, click the empty field, click the <b>Expression</b> tab, and copy and paste the following code into the blank field, making sure to use the appropriate column name per field.
+```
+items('Apply_to_each_-_Add_new_and_changed_items)?['COLUMN NAME HERE']
+```
+
+<p align="center">
+    <img width="663" alt="GitHub Expression" src="https://github.com/prosodactyl/course-repository-power-automate/assets/96262719/a93ef49a-4ea5-48af-b13e-eb0726b53a66">
+</p>
+
+* For <b>Connected Files</b>, use the following expression:
+```
+if(equals(item()?['Connected Files'],''),null,item()?['Connected Files'])
+```
+You should end up with fields that look like this when filled in. Note that there is no <b>Apply to each</b> node between <b>If no</b> and <b>Create item</b>.
+
+<p align="center">
+    <img width="604" alt="GitHub Column Names" src="https://github.com/prosodactyl/course-repository-power-automate/assets/96262719/49977547-7233-4985-a4c0-e853becacb34">
+</p>
+
+6. After you have checked every node and customized each one accordingly, save the flow by clicking the **Save** icon at the top left of the browser or at the bottom of the flow.
 
 <p align="center">
     <img img width="600" alt="Figure 11. Save flow" src="https://user-images.githubusercontent.com/96262719/218862385-888a3033-63cc-4ba5-8a3d-8e203695a0f4.png">
 </p>
 
-6. Before you test out the flow, you must turn it on. To do so, click the left arrow next to your flow name to return to the landing page for that flow. 
-7. Navigate to the top bar and click on **Turn on**.
+7. Before you test out the flow, you must turn it on. To do so, click the left arrow next to your flow name to return to the landing page for that flow. 
+8. Navigate to the top bar and click on **Turn on**.
 
 <p align="center">
     <img img width="600" alt="Figure 12. Turn flow on" src="https://user-images.githubusercontent.com/96262719/218862939-4b1dece3-fade-4055-8c92-36d732bae450.png">
 </p>
 
-8. After ensuring the flow is on, click **Run** in the same bar to test the flow.
+9. After ensuring the flow is on, click **Run** in the same bar to test the flow.
 
 *Add more info about running flow here (2/14/2023)*
 
-9. To share the flow with others in your organization, go to **My flows**. Find the repository flow you would like to share, hover over it, and you will see a circle outline containing three smaller circles. Click this symbol and search for other users in your organization.
+10. To share the flow with others in your organization, go to **My flows**. Find the repository flow you would like to share, hover over it, and you will see a circle outline containing three smaller circles. Click this symbol and search for other users in your organization.
 
-10. If you have shared a flow with someone or someone has shared one with you, your flow has now moved over to **My flows** → **Shared with me**.
+11. If you have shared a flow with someone or someone has shared one with you, your flow has now moved over to **My flows** → **Shared with me**.
 
 ***
 
