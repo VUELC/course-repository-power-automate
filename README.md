@@ -3,7 +3,7 @@
 ## Overview
 This repository contains guidelines and files to help you build a collaborative course repository using Power Automate flows. Each flow will link to a SharePoint list corresponding to individual courses that will sync on a scheduled basis with Excel sheets you can update as needed. You can share these lists with anyone you like within the same group or organization. A professional or organizational SharePoint account is required to upload the zip file to Power Automate.
 
-We suggest watching the [accompanying instructional videos](http://www.website.com) (*coming soon*) for guidance in setting up your course repositories.
+We suggest watching the [accompanying instructional videos](https://youtu.be/H4T8EyhH2zU?si=vQMwB9cJp1jJIsKB) for guidance in setting up your course repositories.
 
 ### GitHub Contents
 1. An Excel sheet course template
