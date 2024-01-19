@@ -173,7 +173,7 @@ Here is a preview of the complete workflow in Power Automate. Each bar (e.g., *R
 * Make sure that the <b>Site Address</b> and <b>List Name</b> are linked to the correct place.
 * For each column name, click the empty field, click the <b>Expression</b> tab, and copy and paste the following code into the blank field, making sure to use the appropriate column name per field.
 ```
-items('Apply_to_each_-_Add_new_and_changed_items)?['COLUMN NAME HERE']
+items('Apply_to_each_-_Add_new_and_changed_items')?['COLUMN NAME HERE']
 ```
 
 <p align="center">
